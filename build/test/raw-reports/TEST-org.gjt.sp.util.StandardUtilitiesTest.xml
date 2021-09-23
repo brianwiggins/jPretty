@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Brians-MacBook-Air-7.local" name="org.gjt.sp.util.StandardUtilitiesTest" skipped="0" tests="49" time="0.16" timestamp="2021-09-22T22:03:30">
+<testsuite errors="0" failures="0" hostname="Brians-MacBook-Air-7.local" name="org.gjt.sp.util.StandardUtilitiesTest" skipped="0" tests="49" time="0.108" timestamp="2021-09-23T01:53:36">
   <properties>
     <property name="sun.boot.library.path.ivy.instance" value="/Library/Java/JavaVirtualMachines/openjdk-14.0.2.jdk/Contents/Home/lib" />
     <property name="java.specification.version" value="14" />
@@ -15,7 +15,7 @@
     <property name="ivy.conf.dir" value="/Users/Wiggins/Desktop/CS471/H4/jEdit/build" />
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-14.0.2.jdk/Contents/Home/lib" />
     <property name="os.version.ivy.instance" value="10.16" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/Users/Wiggins/Desktop/CS471/H4/jEdit/junittestcases1839240783944740407.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Wiggins/Desktop/CS471/H4/jEdit/build/test/raw-reports/IGNORETHIS.xml crashfile=/Users/Wiggins/Desktop/CS471/H4/jEdit/junitvmwatcher4238964093729455739.properties propsfile=/Users/Wiggins/Desktop/CS471/H4/jEdit/junit2171603723982760745.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/Users/Wiggins/Desktop/CS471/H4/jEdit/junittestcases9753809948147851981.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Wiggins/Desktop/CS471/H4/jEdit/build/test/raw-reports/IGNORETHIS.xml crashfile=/Users/Wiggins/Desktop/CS471/H4/jEdit/junitvmwatcher3235434259117216426.properties propsfile=/Users/Wiggins/Desktop/CS471/H4/jEdit/junit14968584544098553175.properties" />
     <property name="ivy.retrieve.pattern.ivy.instance" value="/Users/Wiggins/Desktop/CS471/H4/jEdit/lib/[artifact]-[revision](-[classifier]).[ext]" />
     <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
     <property name="user.dir.ivy.instance" value="/Users/Wiggins/Desktop/CS471/H4/jEdit" />
@@ -228,7 +228,7 @@
     <property name="ivy.resolved.configurations" value="default, master, compile, runtime, test, provided, sources, javadoc, ant-contrib, docbook, fop, launch4j, scripting, default-plugins, appbundler" />
     <property name="ivy.conf.url" value="file:/Users/Wiggins/Desktop/CS471/H4/jEdit/build/ivysettings.xml" />
   </properties>
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="regionMatches2" time="0.007" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="regionMatches2" time="0.003" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getLeadingWhiteSpaceWidth1" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getLeadingWhiteSpaceWidth3" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getIndentString" time="0.0" />
@@ -239,42 +239,42 @@
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings4" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings5" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings6" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings7" time="0.001" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="startsWith2" time="0.001" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace01" time="0.001" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getOffsetOfVirtualColumn2" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getOffsetOfVirtualColumn3" time="0.001" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize" time="0.004" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStrings7" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="startsWith2" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace01" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getOffsetOfVirtualColumn2" time="0.001" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getOffsetOfVirtualColumn3" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize" time="0.005" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="regionMatches" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getVirtualWidthEmptySegment" time="0.001" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getVirtualWidthEmptySegment" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="charsToEscapes" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean2" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean3" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean4" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean4" time="0.001" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean5" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean6" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean7" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean8" time="0.001" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean9" time="0.001" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean8" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean9" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace0" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace1" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace1" time="0.001" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="createWhiteSpace4" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getOffsetOfVirtualColumn" time="0.001" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getOffsetOfVirtualColumn" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="charsToEscapes2" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE2" time="0.001" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE3" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE4" time="0.001" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE5" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE2" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE3" time="0.001" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE4" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE5" time="0.001" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE6" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="globToRE7" time="0.001" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getLeadingWhiteSpace" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getVirtualWidth" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getTrailingWhiteSpace" time="0.001" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="getBoolean" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStringsDigit1" time="0.0" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize2" time="0.001" />
-  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize3" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="compareStringsDigit1" time="0.001" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize2" time="0.0" />
+  <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize3" time="0.001" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize4" time="0.0" />
   <testcase classname="org.gjt.sp.util.StandardUtilitiesTest" name="formatFileSize5" time="0.001" />
   <system-out><![CDATA[]]></system-out>

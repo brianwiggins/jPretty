@@ -251,9 +251,11 @@ public class TextAreaOptionPane extends AbstractOptionPane
 		addComponent(insertCompletionWithDigit);
 
 		enableNotePadStyle = new JCheckBox(jEdit.getProperty(
-				"options.textArea.enableNotePadStyle"));
-		enableNotePadStyle.setSelected(jEdit.getBooleanProperty("enableNotePadStyle"));
+				"options.textarea.enableNotePadStyle"));
+		enableNotePadStyle.setSelected(jEdit.getBooleanProperty("view.notePadLines"));
 		addComponent(enableNotePadStyle);
+
+
 	} //}}}
 
 	//{{{ _save() method
@@ -309,9 +311,10 @@ public class TextAreaOptionPane extends AbstractOptionPane
 		jEdit.setBooleanProperty("stripTrailingEOL", stripTrailingEOL.isSelected());
 		jEdit.setBooleanProperty("completeFromAllBuffers", completeFromAllBuffers.isSelected());
 		jEdit.setBooleanProperty("insertCompletionWithDigit", insertCompletionWithDigit.isSelected());
-		jEdit.setBooleanProperty("enableNotePadStyle", enableNotePadStyle.isSelected());
 		jEdit.setIntegerProperty("options.textarea.lineSpacing",
 					 Integer.valueOf(lineSpacing.getText()));
+		jEdit.setBooleanProperty("view.notePadLines", enableNotePadStyle.isSelected());
+
 	} //}}}
 
 	//{{{ Private members

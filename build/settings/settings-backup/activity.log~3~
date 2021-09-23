@@ -1,0 +1,297 @@
+Log file created on Wed Sep 22 19:26:31 MDT 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+7:26:26 PM [main] [message] Log: When reporting bugs, please include the following information:
+7:26:26 PM [main] [message] Log: java.version=14.0.2
+7:26:26 PM [main] [message] Log: java.vm.version=14.0.2+12-46
+7:26:26 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+7:26:26 PM [main] [message] Log: java.runtime.version=14.0.2+12-46
+7:26:26 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+7:26:26 PM [main] [message] Log: java.vendor=Oracle Corporation
+7:26:26 PM [main] [message] Log: java.compiler=null
+7:26:26 PM [main] [message] Log: os.name=Mac OS X
+7:26:26 PM [main] [message] Log: os.version=10.16
+7:26:26 PM [main] [message] Log: os.arch=x86_64
+7:26:26 PM [main] [message] Log: user.home=/Users/Wiggins
+7:26:26 PM [main] [message] Log: java.home=/Library/Java/JavaVirtualMachines/openjdk-14.0.2.jdk/Contents/Home
+7:26:26 PM [main] [message] Log: java.class.path=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jedit.jar
+7:26:26 PM [main] [message] jEdit: starting with command line arguments: -settings=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings
+7:26:26 PM [main] [notice] jEdit: An error occurred while connecting to the jEdit server instance.
+7:26:26 PM [main] [notice] jEdit: This probably means that jEdit crashed and/or exited abnormally
+7:26:26 PM [main] [notice] jEdit: the last time it was run.
+7:26:26 PM [main] [notice] jEdit: If you don't know what this means, don't worry.
+7:26:26 PM [main] [notice] jEdit: java.net.ConnectException: Connection refused
+7:26:26 PM [main] [notice] jEdit:  at java.base/sun.nio.ch.Net.connect0(Native Method)
+7:26:26 PM [main] [notice] jEdit:  at java.base/sun.nio.ch.Net.connect(Net.java:503)
+7:26:26 PM [main] [notice] jEdit:  at java.base/sun.nio.ch.Net.connect(Net.java:492)
+7:26:26 PM [main] [notice] jEdit:  at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+7:26:26 PM [main] [notice] jEdit:  at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+7:26:26 PM [main] [notice] jEdit:  at java.base/java.net.Socket.connect(Socket.java:648)
+7:26:26 PM [main] [notice] jEdit:  at java.base/java.net.Socket.connect(Socket.java:597)
+7:26:26 PM [main] [notice] jEdit:  at java.base/java.net.Socket.<init>(Socket.java:520)
+7:26:26 PM [main] [notice] jEdit:  at java.base/java.net.Socket.<init>(Socket.java:328)
+7:26:26 PM [main] [notice] jEdit:  at org.gjt.sp.jedit.jEdit.main(jEdit.java:308)
+7:26:26 PM [main] [debug] jEdit: before splash screen activation:536 ms
+7:26:31 PM [main] [debug] jEdit: after splash screen activation:5649 ms
+7:26:31 PM [main] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/activity.log" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/activity.log~1~"
+7:26:31 PM [main] [notice] jEdit: jEdit version 5.6.0
+7:26:31 PM [main] [message] jEdit: Settings directory is /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings
+7:26:31 PM [main] [message] jEdit: jEdit home directory is /Users/Wiggins/Desktop/CS471/H4/jEdit/build
+7:26:32 PM [main] [debug] SplashScreen: init:101/4696ms
+7:26:32 PM [main] [debug] SplashScreen: init system properties:82/4778ms
+7:26:32 PM [main] [message] BeanShell: Beanshell Init
+7:26:32 PM [main] [debug] SplashScreen: init beanshell:204/4982ms
+7:26:32 PM [main] [debug] SplashScreen: loading site properties:11/4993ms
+7:26:32 PM [main] [debug] SplashScreen: loading user properties:27/5020ms
+7:26:32 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+7:26:32 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+7:26:32 PM [main] [debug] SplashScreen: init GUI:11/5031ms
+7:26:32 PM [main] [debug] EditServer: jEdit server started on port 49998
+7:26:32 PM [main] [debug] EditServer: Authorization key is 2139902292
+7:26:32 PM [main] [debug] SplashScreen: init server:52/5083ms
+7:26:32 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+7:26:32 PM [main] [debug] SplashScreen: init look and feel:28/5111ms
+7:26:32 PM [main] [debug] SplashScreen: init VFS Manager:2/5113ms
+7:26:32 PM [main] [debug] ActionSet: Loading actions from jar:file:/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+7:26:32 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+7:26:32 PM [main] [debug] SplashScreen: init resources:234/5347ms
+7:26:32 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+7:26:32 PM [main] [debug] SplashScreen: Migrate keymaps:86/5433ms
+7:26:32 PM [main] [notice] jEdit: Loading plugins from /Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars
+7:26:32 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3,source=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+7:26:32 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+7:26:32 PM [main] [notice] jEdit: Loading plugins from /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/jars
+7:26:32 PM [main] [debug] SplashScreen: init plugins:60/5493ms
+7:26:32 PM [main] [message] HistoryModel: Loading history
+7:26:32 PM [main] [debug] SplashScreen: init history model:7/5500ms
+7:26:32 PM [main] [message] BufferHistory: Loading /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/recent.xml
+7:26:32 PM [main] [debug] SplashScreen: init buffer history:18/5518ms
+7:26:32 PM [main] [message] KillRing: Loading /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/killring.xml
+7:26:32 PM [main] [debug] SplashScreen: init killring:26/5544ms
+7:26:32 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+7:26:32 PM [main] [debug] jEdit: SOCKS proxy disabled
+7:26:32 PM [main] [debug] jEdit: HTTP proxy disabled
+7:26:33 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+7:26:33 PM [main] [debug] SplashScreen: init various properties:216/5760ms
+7:26:33 PM [main] [message] jEdit: Loading mode catalog file /Users/Wiggins/Desktop/CS471/H4/jEdit/build/modes/catalog
+7:26:33 PM [main] [debug] jEdit: Loading user mode catalog
+7:26:33 PM [main] [message] jEdit: Loading mode catalog file /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/modes/catalog
+7:26:33 PM [main] [debug] SplashScreen: init modes:222/5982ms
+7:26:33 PM [main] [debug] PluginJAR: Activating macosx.MacOSXPlugin because of startup
+7:26:33 PM [main] [debug] PluginJAR: Opening /Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars/MacOSX.jar
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setQuitHandler(OSXAdapter.java:50)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:67)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:26:33 PM [main] [debug] SplashScreen: activate plugins:35/6017ms
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setAboutHandler(OSXAdapter.java:58)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:68)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: OSXAdapter could not access the About Menu
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.NoSuchMethodException: com.apple.eawt.Application.setEnabledAboutMenu(boolean)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.getDeclaredMethod(Class.java:2553)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setAboutHandler(OSXAdapter.java:63)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:68)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setPreferencesHandler(OSXAdapter.java:75)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:69)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: OSXAdapter could not access the About Menu
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.NoSuchMethodException: com.apple.eawt.Application.setEnabledPreferencesMenu(boolean)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.getDeclaredMethod(Class.java:2553)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setPreferencesHandler(OSXAdapter.java:80)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:69)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setFileHandler(OSXAdapter.java:91)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:70)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setReOpenApplicationHandler(OSXAdapter.java:110)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:71)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:26:33 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:26:33 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.3,source=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+7:26:33 PM [main] [debug] Macros: Registered beanshell macro handler
+7:26:33 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+7:26:33 PM [main] [debug] SplashScreen: init macros:112/6129ms
+7:26:33 PM [main] [message] BeanShell: Running script /Users/Wiggins/Desktop/CS471/H4/jEdit/build/startup/startup.bsh
+7:26:33 PM [main] [notice] jEdit$2: Loading edit mode /Users/Wiggins/Desktop/CS471/H4/jEdit/build/modes/text.xml
+7:26:33 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+7:26:33 PM [main] [debug] SplashScreen: run startup scripts:312/6441ms
+7:26:33 PM [main] [debug] SplashScreen: run startup scripts:3/6444ms
+7:26:33 PM [main] [debug] SplashScreen: run startup scripts:6/6447ms
+7:26:33 PM [main] [debug] jEdit: main done:7633 ms
+7:26:33 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/perspective.xml
+7:26:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+7:26:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+7:26:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+7:26:33 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+7:26:34 PM [AWT-EventQueue-0] [debug] BufferSet: 1053004152: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+7:26:34 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:26:34 PM [AWT-EventQueue-0] [debug] BufferSet: 1053004152 addBufferAt(Untitled-1 (~/Desktop/CS471/H4/jEdit/),-1)
+7:26:34 PM [AWT-EventQueue-0] [debug] BufferSet: 1053004152: Buffer added Untitled-1 (~/Desktop/CS471/H4/jEdit/) at 0
+7:26:34 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+7:26:34 PM [AWT-EventQueue-0] [debug] BufferSet: 1053004152 addBufferAt(Untitled-1 (~/Desktop/CS471/H4/jEdit/),0)
+7:26:34 PM [AWT-EventQueue-0] [debug] BufferSet: 1053004152 addBufferAt(Untitled-1 (~/Desktop/CS471/H4/jEdit/),1)
+7:26:35 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+7:26:35 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+7:26:35 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 9404 ms
+7:26:35 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:26:36 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+7:26:37 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:26:37 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:26:38 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:42 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+7:26:42 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/perspective.xml
+7:26:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/perspective.xml" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/perspective.xml~1~"
+7:26:42 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+7:26:42 PM [jEdit Worker #0] [debug] MiscUtilities: Saving autosave of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/Untitled-1" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/#Untitled-1#"
+7:26:42 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+7:26:42 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+7:26:42 PM [AWT-EventQueue-0] [debug] BufferSet: 1053004152: Buffer removed Untitled-1 (~/Desktop/CS471/H4/jEdit/)
+7:26:42 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/Desktop/CS471/H4/jEdit/) is in no bufferSet anymore, closing it
+7:26:42 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+7:26:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/history" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/history~1~"
+7:26:42 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/recent.xml
+7:26:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/recent.xml" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/recent.xml~1~"
+7:26:42 PM [AWT-EventQueue-0] [message] KillRing: Saving /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/killring.xml
+7:26:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/killring.xml" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/killring.xml~1~"
+7:26:42 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/properties" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/properties~1~"

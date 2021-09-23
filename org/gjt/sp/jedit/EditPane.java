@@ -1020,6 +1020,7 @@ public class EditPane extends JPanel implements BufferSetListener
 			"view.selectionFgColor"));
 		painter.setSelectionFgColorEnabled(jEdit.getBooleanProperty(
 			"view.selectionFg"));
+		painter.enableNotePadStyle(jEdit.getBooleanProperty("view.notePadLines"));
 
 		String defaultFont = jEdit.getProperty("view.font");
 		int defaultFontSize = jEdit.getIntegerProperty("view.fontsize",12);

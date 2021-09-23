@@ -1,0 +1,776 @@
+Log file created on Wed Sep 22 18:49:42 MDT 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+6:49:38 PM [main] [message] Log: When reporting bugs, please include the following information:
+6:49:38 PM [main] [message] Log: java.version=14.0.2
+6:49:38 PM [main] [message] Log: java.vm.version=14.0.2+12-46
+6:49:38 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+6:49:38 PM [main] [message] Log: java.runtime.version=14.0.2+12-46
+6:49:38 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+6:49:38 PM [main] [message] Log: java.vendor=Oracle Corporation
+6:49:38 PM [main] [message] Log: java.compiler=null
+6:49:38 PM [main] [message] Log: os.name=Mac OS X
+6:49:38 PM [main] [message] Log: os.version=10.16
+6:49:38 PM [main] [message] Log: os.arch=x86_64
+6:49:38 PM [main] [message] Log: user.home=/Users/Wiggins
+6:49:38 PM [main] [message] Log: java.home=/Library/Java/JavaVirtualMachines/openjdk-14.0.2.jdk/Contents/Home
+6:49:38 PM [main] [message] Log: java.class.path=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jedit.jar
+6:49:38 PM [main] [message] jEdit: starting with command line arguments: -settings=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings
+6:49:38 PM [main] [debug] jEdit: before splash screen activation:319 ms
+6:49:42 PM [main] [debug] jEdit: after splash screen activation:4113 ms
+6:49:42 PM [main] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/activity.log" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/activity.log~1~"
+6:49:42 PM [main] [notice] jEdit: jEdit version 5.6.0
+6:49:42 PM [main] [message] jEdit: Settings directory is /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings
+6:49:42 PM [main] [message] jEdit: jEdit home directory is /Users/Wiggins/Desktop/CS471/H4/jEdit/build
+6:49:42 PM [main] [debug] SplashScreen: init:47/3428ms
+6:49:42 PM [main] [debug] SplashScreen: init system properties:67/3495ms
+6:49:42 PM [main] [message] BeanShell: Beanshell Init
+6:49:42 PM [main] [debug] SplashScreen: init beanshell:97/3592ms
+6:49:42 PM [main] [debug] SplashScreen: loading site properties:24/3616ms
+6:49:42 PM [main] [debug] SplashScreen: loading user properties:15/3631ms
+6:49:42 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+6:49:42 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+6:49:42 PM [main] [debug] SplashScreen: init GUI:10/3641ms
+6:49:43 PM [main] [debug] EditServer: jEdit server started on port 49702
+6:49:43 PM [main] [debug] EditServer: Authorization key is 2129429510
+6:49:43 PM [main] [debug] SplashScreen: init server:107/3748ms
+6:49:43 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+6:49:43 PM [main] [debug] SplashScreen: init look and feel:26/3774ms
+6:49:43 PM [main] [debug] SplashScreen: init VFS Manager:2/3776ms
+6:49:43 PM [main] [debug] ActionSet: Loading actions from jar:file:/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+6:49:43 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+6:49:43 PM [main] [debug] SplashScreen: init resources:196/3972ms
+6:49:43 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+6:49:43 PM [main] [debug] SplashScreen: Migrate keymaps:85/4057ms
+6:49:43 PM [main] [notice] jEdit: Loading plugins from /Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars
+6:49:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3,source=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+6:49:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+6:49:43 PM [main] [notice] jEdit: Loading plugins from /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/jars
+6:49:43 PM [main] [debug] SplashScreen: init plugins:48/4105ms
+6:49:43 PM [main] [message] HistoryModel: Loading history
+6:49:43 PM [main] [debug] SplashScreen: init history model:8/4113ms
+6:49:43 PM [main] [message] BufferHistory: Loading /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/recent.xml
+6:49:43 PM [main] [debug] SplashScreen: init buffer history:12/4125ms
+6:49:43 PM [main] [message] KillRing: Loading /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/killring.xml
+6:49:43 PM [main] [debug] SplashScreen: init killring:21/4146ms
+6:49:43 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+6:49:43 PM [main] [debug] jEdit: SOCKS proxy disabled
+6:49:43 PM [main] [debug] jEdit: HTTP proxy disabled
+6:49:43 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+6:49:43 PM [main] [debug] SplashScreen: init various properties:218/4364ms
+6:49:43 PM [main] [message] jEdit: Loading mode catalog file /Users/Wiggins/Desktop/CS471/H4/jEdit/build/modes/catalog
+6:49:43 PM [main] [debug] jEdit: Loading user mode catalog
+6:49:43 PM [main] [message] jEdit: Loading mode catalog file /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/modes/catalog
+6:49:43 PM [main] [debug] SplashScreen: init modes:155/4519ms
+6:49:43 PM [main] [debug] PluginJAR: Activating macosx.MacOSXPlugin because of startup
+6:49:43 PM [main] [debug] PluginJAR: Opening /Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars/MacOSX.jar
+6:49:43 PM [main] [debug] SplashScreen: activate plugins:28/4547ms
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setQuitHandler(OSXAdapter.java:50)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:67)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setAboutHandler(OSXAdapter.java:58)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:68)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: OSXAdapter could not access the About Menu
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.NoSuchMethodException: com.apple.eawt.Application.setEnabledAboutMenu(boolean)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.getDeclaredMethod(Class.java:2553)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setAboutHandler(OSXAdapter.java:63)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:68)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setPreferencesHandler(OSXAdapter.java:75)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:69)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: OSXAdapter could not access the About Menu
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.NoSuchMethodException: com.apple.eawt.Application.setEnabledPreferencesMenu(boolean)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.getDeclaredMethod(Class.java:2553)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setPreferencesHandler(OSXAdapter.java:80)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:69)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setFileHandler(OSXAdapter.java:91)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:70)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:340)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setReOpenApplicationHandler(OSXAdapter.java:110)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:71)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+6:49:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+6:49:44 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+6:49:44 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+6:49:44 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+6:49:44 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+6:49:44 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+6:49:44 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+6:49:44 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+6:49:44 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.3,source=/Users/Wiggins/Desktop/CS471/H4/jEdit/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+6:49:44 PM [main] [debug] Macros: Registered beanshell macro handler
+6:49:44 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+6:49:44 PM [main] [debug] SplashScreen: init macros:293/4840ms
+6:49:44 PM [main] [message] BeanShell: Running script /Users/Wiggins/Desktop/CS471/H4/jEdit/build/startup/startup.bsh
+6:49:44 PM [main] [notice] jEdit$2: Loading edit mode /Users/Wiggins/Desktop/CS471/H4/jEdit/build/modes/text.xml
+6:49:44 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+6:49:44 PM [main] [debug] SplashScreen: run startup scripts:292/5132ms
+6:49:44 PM [main] [debug] SplashScreen: run startup scripts:3/5135ms
+6:49:44 PM [main] [debug] SplashScreen: run startup scripts:7/5139ms
+6:49:44 PM [main] [debug] jEdit: main done:5982 ms
+6:49:44 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/perspective.xml
+6:49:44 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+6:49:44 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+6:49:44 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+6:49:44 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+6:49:44 PM [AWT-EventQueue-0] [debug] BufferSet: 1014663803: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+6:49:44 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+6:49:44 PM [AWT-EventQueue-0] [debug] BufferSet: 1014663803 addBufferAt(Untitled-1 (~/Desktop/CS471/H4/jEdit/),-1)
+6:49:44 PM [AWT-EventQueue-0] [debug] BufferSet: 1014663803: Buffer added Untitled-1 (~/Desktop/CS471/H4/jEdit/) at 0
+6:49:45 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+6:49:45 PM [AWT-EventQueue-0] [debug] BufferSet: 1014663803 addBufferAt(Untitled-1 (~/Desktop/CS471/H4/jEdit/),0)
+6:49:45 PM [AWT-EventQueue-0] [debug] BufferSet: 1014663803 addBufferAt(Untitled-1 (~/Desktop/CS471/H4/jEdit/),1)
+6:49:45 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+6:49:45 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+6:49:45 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 7376 ms
+6:49:46 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+6:49:46 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+6:49:46 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+6:50:11 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+6:50:13 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (~/Desktop/CS471/H4/jEdit/)]
+6:50:13 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/perspective.xml" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/perspective.xml~1~"
+6:50:13 PM [jEdit Worker #0] [debug] MiscUtilities: Saving autosave of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/Untitled-1" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/#Untitled-1#"
+6:50:43 PM [jEdit Worker #1] [debug] MiscUtilities: Saving autosave of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/Untitled-1" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/#Untitled-1#"
+6:51:08 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+6:51:08 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+6:51:09 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+6:51:10 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+6:51:11 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+6:51:13 PM [jEdit Worker #2] [debug] MiscUtilities: Saving autosave of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/Untitled-1" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/#Untitled-1#"
+6:51:43 PM [jEdit Worker #3] [debug] MiscUtilities: Saving autosave of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/Untitled-1" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/#Untitled-1#"
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [message] EditServer: Socket[addr=/127.0.0.1,port=49955,localport=49702]: connected
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=49955,localport=49702]: authenticated successfully
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: parent = "/Users/Wiggins/Desktop/CS471/H4/jEdit";
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: args = new String[1];
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: args[0] = null;
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: view = jEdit.getLastView();
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: buffer = EditServer.handleClient(true,true,false,parent,args);
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: if(buffer != null && false) {
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer:  buffer.setWaitSocket(socket);
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: }
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: }
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer: if(doNotCloseSocket == void)
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [debug] EditServer:  socket.close();
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]: Exception in thread "jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]" 
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]: java.lang.NoClassDefFoundError: org/gjt/sp/jedit/EditServer$1
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]:  at org.gjt.sp.jedit.EditServer.handleClient(EditServer.java:333)
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]:  at org.gjt.sp.jedit.EditServer.run(EditServer.java:145)
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]: Caused by: java.lang.ClassNotFoundException: org.gjt.sp.jedit.EditServer$1
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:21:10 PM [jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]] [error] jEdit server daemon [/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/server]:  ... 2 more
+7:21:18 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:21:18 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Caused by: java.lang.ClassNotFoundException: org.gjt.sp.util.AwtRunnableQueue$RunRequestsInAWTThread
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+7:21:24 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  ... 32 more
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:25 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:27 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:28 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View.lambda$propertiesChanged$4(View.java:1923)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/com.apple.eawt._AppEventHandler$_QuitDispatcher.performUsing(_AppEventHandler.java:431)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/com.apple.eawt._AppEventHandler$_QuitDispatcher.performUsing(_AppEventHandler.java:420)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/com.apple.eawt._AppEventHandler$_AppEventDispatcher$1.run(_AppEventHandler.java:552)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:31 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:37 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Exception in thread "AWT-EventQueue-0" 
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: java.lang.NoClassDefFoundError: org/gjt/sp/util/AwtRunnableQueue$RunRequestsInAWTThread
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.AwtRunnableQueue.queueAWTRunner(AwtRunnableQueue.java:102)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.util.TaskManager.waitForIoTasks(TaskManager.java:187)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.exit(jEdit.java:2947)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:4321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.jEdit.closeView(jEdit.java:2672)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at org.gjt.sp.jedit.View$WindowHandler.windowClosing(View.java:2304)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.AWTEventMulticaster.windowClosing(AWTEventMulticaster.java:357)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processWindowEvent(Window.java:2070)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/javax.swing.JFrame.processWindowEvent(JFrame.java:298)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.processEvent(Window.java:2029)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5012)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2764)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4844)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+7:21:38 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+7:21:43 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/perspective.xml" to "/Users/Wiggins/Desktop/CS471/H4/jEdit/build/settings/settings-backup/perspective.xml~1~"
+7:22:03 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+7:22:03 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers

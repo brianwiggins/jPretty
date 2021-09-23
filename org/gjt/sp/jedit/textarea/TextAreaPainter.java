@@ -612,6 +612,13 @@ public class TextAreaPainter extends JComponent implements TabExpander
 		repaint();
 	} //}}}
 
+	private boolean notePadLines;
+	public final void enableNotePadStyle(boolean notePadLines)
+	{
+		this.notePadLines = notePadLines;
+		repaint();
+	}
+
 	//{{{ getFoldLineStyle() method
 	/**
 	 * Returns the fold line style. The first element is the style for
@@ -1146,9 +1153,14 @@ public class TextAreaPainter extends JComponent implements TabExpander
 			if(paintLineHighlight || collapsedFold)
 			{
 				gfx.setColor(bgColor);
-				gfx.fillRect(0,y,getWidth(),getLineHeight());
+				gfx.fillRect(0,y,getWidth(),getLineHeight()-1);
 			} //}}}
 
+			if(notePadLines)
+			{
+				gfx.setColor(new Color(0,0,255));
+				gfx.drawLine(0,y+getLineHeight()-1,getWidth(),y+getLineHeight()-1);
+			}
 			//{{{ Paint token backgrounds
 			ChunkCache.LineInfo lineInfo = textArea.chunkCache.getLineInfo(screenLine);
 
